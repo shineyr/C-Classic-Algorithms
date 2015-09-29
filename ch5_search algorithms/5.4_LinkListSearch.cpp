@@ -84,7 +84,7 @@ void display(ListNode *head)
 	ListNode *tmp = head;
 	while (tmp)
 	{
-		cout << tmp->data.key << ", " << tmp->data.name << ", " << tmp->data.age << endl;
+		cout << tmp->data.key << " , " << tmp->data.name << " , " << tmp->data.age << endl;
 		tmp = tmp->next;
 	}
 }
@@ -121,7 +121,7 @@ int main()
 	node = searchNode(head , key);
 	if (node)
 	{
-		cout << "关键字" << key << "对应的节点为：" << node->data.key << node->data.name << node->data.age << endl;
+		cout << "关键字" << key << "对应的节点为：" << node->data.key << " , " << node->data.name << " , " << node->data.age << endl;
 	}//fi
 	
 	system("pause");
